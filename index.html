@@ -457,10 +457,9 @@
             </li>
           </ul>
         </div>
-
         <div class="footer-modal">
           <p class="footer-modal-title">Subscribe</p>
-          <forma class="footer-subscribe">
+          <form class="footer-subscribe">
             <label for="footer-email-client">
               <input class="footer-input" type="email" placeholder="E-mail" name="footer-email" id="footer-email-client">
             </label>
@@ -469,14 +468,11 @@
               <use href="./images/icons.svg#icon-frame"></use>
             </svg>
             </button>
-          </forma>
-          
-
+          </form> 
         </div>
-
       </div>      
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open" >
       <div class="modal">
         <button type="button" class="modal-close">
          <svg class="close-icon" width="8" height="8">
@@ -513,17 +509,17 @@
           </div>
         </div>
         <div class="modal-field-textarea">
-          <label for="user-textarea" class="modal-label">Comment</label>
-          <textarea class="modal-textarea" placeholder="Text input" name="user-textarea" id="user-textarea" ></textarea>
+          <label for="user-comment" class="modal-label">Comment</label>
+          <textarea class="modal-textarea" placeholder="Text input" name="user-comment" id="user-comment" ></textarea>
         </div>
         <div class="modal-field-check">
           <input class="modal-check visually-hidden"
             type="checkbox"
-            name="policy"
+            name="user-privacy"
             value="true"
-            id="policy">
-          <label class="modal-check-text" for="policy">
-            <span>
+            id="user-privacy">
+          <label class="modal-check-text" for="user-privacy">
+            <span class="check-text">
               <svg width="10" height="8">
                 <use href="./images/icons.svg#icon-vector"></use>
               </svg>
